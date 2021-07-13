@@ -1,9 +1,9 @@
 # add summary
 
-collatzList = []
-
 num = input("Enter an Integer: ")
 num = int(num)
+
+collatzList = [num]
 
 while num > 1:
     if num % 2 == 0:
